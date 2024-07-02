@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "chat": "node --env-file=.env chat.js",
+    "search": "node --env-file=.env search.js",
+    "rag": "node --env-file=.env rag.js"
   },
   "keywords": [],
   "author": "",

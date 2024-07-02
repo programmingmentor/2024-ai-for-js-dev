@@ -1,1 +1,1 @@
-# des-2024-ai-for-web-dev
+# 2024-ai-for-js-dev

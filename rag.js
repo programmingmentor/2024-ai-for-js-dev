@@ -56,8 +56,6 @@ async function generateResponse(products, question, chatHistory) {
         content: userQueryWithContext,
     });
 
-    //   console.log("Chat History:", JSON.stringify(chatHistory, null, 2));
-
     const response = await openai.chat.completions.create({
         model: "gpt-3.5-turbo-16k-0613",
         temperature: 0,
